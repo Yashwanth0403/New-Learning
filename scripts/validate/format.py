@@ -66,7 +66,6 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
 
     return (categories, category_line_num)
 
-
 def check_alphabetical_order(lines: List[str]) -> List[str]:
 
     err_msgs = []

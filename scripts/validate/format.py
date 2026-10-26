@@ -36,7 +36,7 @@ CategoriesLineNumber = Dict[str, int]
 
 def error_message(line_number: int, message: str) -> str:
     line = line_number + 1
-    return f'(L{line:03d}) {message}'    
+    return f'(L{line:03d}) {message}'
 
 
 def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesLineNumber]:
